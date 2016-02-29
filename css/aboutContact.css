@@ -1,0 +1,73 @@
+.contact-page-wrap {
+		background-image: url('../images/45degreee_fabric/45degreee_fabric.png');
+	  background-repeat: repeat;
+		background-position: top;
+		background-size: contain;
+		margin-top: 50px;
+		height: 1500px;
+	  z-index: 0;
+}
+#contact-social {
+	display: inline-block;
+}
+
+.social {
+	position: relative;
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	bottom: 0;
+	/*margin-bottom: 20px;*/
+	/*-moz-box-shadow: 10px 10px 5px #274676;
+	-webkit-box-shadow: 10px 10px 5px #274676;
+	box-shadow: 10px 10px 5px #274676;*/
+}
+.social:hover {
+	opacity: 0.6;
+	vertical-align: baseline;
+}
+.social:active {
+	-moz-box-shadow: 10px 10px 5px #00bcd4;
+	-webkit-box-shadow: 10px 10px 5px #00bcd4;
+	box-shadow: 10px 10px 5px #00bcd4;
+
+}
+#git {
+	margin-right: 15px;
+}
+#git-home {
+	margin-right:0;
+}
+
+#vizualize {
+	height: 40px;
+	/*margin-right: -45px;*/
+	/*-moz-box-shadow: 10px 10px 5px #274676;
+	-webkit-box-shadow: 10px 10px 5px #274676;
+	box-shadow: 10px 10px 5px #274676;*/
+}
+#vizualize:hover {
+	opacity: 0.6;
+	/*height: 43px;*/
+}
+
+#mailform {
+	font-size: 1.9rem;
+}
+
+#about-me {
+	width: 100%;
+	border-radius: 10%;
+	-moz-box-shadow: 10px 10px 5px #888;
+	-webkit-box-shadow: 10px 10px 5px #888;
+	box-shadow: 10px 10px 5px #888;
+}
+#contact-links a {
+	color: #00BCD4;
+}
+#sender-name,
+#sender-email,
+#message {
+	width: 80%;
+	color: grey;
+}

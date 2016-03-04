@@ -1,9 +1,9 @@
 
 .xyz {
-  background-image: url('../img/sandpaper/sandpaper.png');
-    background-repeat: repeat;
+    background: #ddd;
+    /*background-repeat: repeat;
     background-position: top;
-    background-size: contain;
+    background-size: contain;*/
     /*margin-top: 50px;*/
     height: 100%;
     z-index: 0;
@@ -174,4 +174,10 @@
   -moz-box-shadow: 10px 10px 5px #00bcd4;
   -webkit-box-shadow: 10px 10px 5px #00bcd4;
   box-shadow: 10px 10px 5px #00bcd4;
+}
+p {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    letter-spacing: 1.7px;
+    line-height: 1.5;
 }

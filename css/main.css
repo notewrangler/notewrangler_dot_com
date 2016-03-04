@@ -47,10 +47,7 @@ p {
   top: 0;
   right: 5rem;
 }
-#cv-link, #about, #contact, #portLink  {
-  display: inline-block;
-  margin-left: 20px;
-}
+
 
 #links a {
   color: rgb(0,0,0);
@@ -66,7 +63,9 @@ p {
 	z-index: 3;
 	letter-spacing: 1.9px;
 }
-
+#portfolio-title {
+	text-align: center;
+}
 
 
 .titles {
